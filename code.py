@@ -44,9 +44,10 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                         f"1:  {Fore.GREEN}Sights{Style.RESET_ALL}\n"
                         f"2:  {Fore.GREEN}Weapon Sounds{Style.RESET_ALL}\n"
                         f"3:  {Fore.GREEN}Hit sounds{Style.RESET_ALL}\n"
-                        f"4:  {Fore.GREEN}No textures{Style.RESET_ALL}\n"
+                        f"4:  {Fore.GREEN}Weapon Skins{Style.RESET_ALL}\n"
+                        f"5:  {Fore.GREEN}No textures{Style.RESET_ALL}\n"
                         f"Type 'back' to return to the previous menu.\n: ",
-                        valid_values=[0, 1, 2, 3, 4]
+                        valid_values=[0, 1, 2, 3, 4, 5]
         )
         if options == 'back':
             print(f"{Fore.CYAN}\nReturning to main menu.{Style.RESET_ALL}")
@@ -70,6 +71,10 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                     start_key2 = "gun sounds"
                     return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 4:
+                    start_key = "AR2 skins"
+                    start_key2 = "Skin replacements"
+                    return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names                
+                case 5:
                     start_key = "textures"
                     addon2 = "75205be5a167842c7ed931d9d5a904ca"
                     return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
