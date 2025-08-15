@@ -23,7 +23,8 @@
                 "frost/winter": "13a8c1ef137b662cc08aec26360cda89",
                 "hexagon": "d63b5eaa0e1899618871f6393c5efc4d",
                 "roses": "3cd0238d6761523b65970eaaea92833b",
-                "hearts": "9dd75c7f48ad1e725d39150512863256"
+                "hearts": "9dd75c7f48ad1e725d39150512863256",
+				"ghillie wrap": "4ac718579ce414b22a41f8c7cc7acf94"
             },
             "Skin replacements": {
                 "cats": {
@@ -2008,6 +2009,7 @@
             "Holographic": "913baf61aa5dd1d33934bd8cacd7fbe0",
             "Kobra": "71db86df76f58e2e36b7eff79a2872a0",
             "Reflex": "307c54a136464623905aa55ca5dc81d3",
+			"Soviet Reflex": "0a290e711d0f21ab216582648612b082",
             "ocr": "",
             "pelican": "",
             "prism": "",
