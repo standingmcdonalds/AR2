@@ -55,7 +55,6 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                 case 1:
                     start_key = "AR2 reticles"
                     start_key2 = "reticles"
-                    return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 2:
                     start_key = "AR2 guns"
                     start_key2 = "gun sounds"
